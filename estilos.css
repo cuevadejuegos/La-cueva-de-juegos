@@ -1,0 +1,105 @@
+*{margin:0;
+
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+
+
+}
+body {
+	background: #FFFFFF;
+	font-family: 'calibri';
+}
+
+.container {
+	background: #FF4104;
+	width: 100%;
+	max-width: 1000px;
+	margin: 10px auto;
+}
+
+.menu ul {
+	list-style: none;
+	width: 100%;
+	display: table;
+}
+
+.menu ul li {
+	display: table-cell;
+	width: calc(30px * 5)
+}
+
+.menu ul li:hover {
+	background: rgba(0,0,0,.9);
+}
+
+.menu ul li a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.menu ul .todos {background: #333333;}
+.menu ul .clasicos {background: #333333;}
+.menu ul .online{background: #333333;}
+/*.menu ul .GBA{background: #333333;}*/
+/*.menu ul .SEGA {background: #022535;}*/
+
+.galeria {
+	width: 100%;
+	padding: 20px;
+	margin-top: 20px;
+	display: flex;;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.galeria .title-img {
+	width: 100%;
+	
+}
+
+.galeria .title-img h3 {
+	font-size: 300px;
+	text-align: center;
+	padding: 19px 0;
+	color: #636363;
+	font-weight: 100;
+}
+
+.galeria .box-img {
+	width: calc(100px * 3);
+	margin: 10px;
+	border-radius: 2px;
+	box-shadow: 0 0 7px 0 rgba(0,0,0,.6);
+	overflow: hidden;
+}
+
+.galeria .box-img img {
+	width: 100%;
+	vertical-align: top;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.galeria .box-img img:hover {
+	transform: scale(1.2);
+}
+
+.active {
+	border-bottom: 4px solid red;
+}
+
+.footer{
+	position: relative;
+	background: #FF4104;
+	position: fixed;
+	bottom: 0;
+	width: 60%;
+	height: 3%;
+	text-align: center;
+
+}
