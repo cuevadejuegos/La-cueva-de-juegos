@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-	background: #FF4104;
+	background:  #FFFFFF;
 	width: 100%;
 	max-width: 1000px;
 	margin: 10px auto;
@@ -95,7 +95,7 @@ body {
 
 .footer{
 	position: relative;
-	background: #FF4104;
+	background:  #FFFFFF;
 	position: fixed;
 	bottom: 0;
 	width: 60%;
